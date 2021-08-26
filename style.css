@@ -127,6 +127,9 @@ cursor: pointer;
 	border-radius: 5px; */
 	}
 
+
+/* generic styling for the timeline containers and titles*/
+
 .all_titles{
 color: #000;
 text-align: center;
@@ -159,4 +162,6 @@ width: 100%;
 
 .timeline_container p, .timeline_container h4{
 	color:#000;
+	padding-left: 1em;
+	text-indent:-0.8em;
 }
