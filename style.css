@@ -24,6 +24,16 @@ header{
 	z-index: 100000;
 }
 
+header.for_sticky{
+	padding: 25px 100px;
+	background: #fff;
+	
+}
+
+header.for_sticky ul li a, header.for_sticky .name{
+	color: #000;
+}
+
 header .name{
 	position: relative;
 	font-weight: 700;
@@ -60,20 +70,24 @@ header ul li a{
 	position: relative;
 	width: 100%;
 	height: 110vh;
-	background: url(bg.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.28),rgba(0,0,0,0.28)), url(bg.jpg);
 	background-size: cover;
 }
 
 .sub-heading{
 	position: absolute;
 	margin-top: 40vh;
-	margin-left: 15%;
+	margin-left: 8%;
 	text-align: left;
+	
+}
+
+.sub-heading h3{
+	margin: 8px 0;
 }
 
 .education{
-background-color: #543532;
-
+background-color: #fff;
 -webkit-filter: blur(10px);
 position: relative;
 display: flex;
