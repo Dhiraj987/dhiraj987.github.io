@@ -9,89 +9,91 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+        <script src="main.js"></script>
     </head>
 
     <body>
+        <div class="main_container">
+
+        <!-- the first page-- with nav bar and headings, sub heading and intro goes here -->
+        <div class="intro_container">
         <!-- name and the nav bar goes here -->
             <header>
                     <a href="#" class="name">Dhiraj Kumar Chaudhary</a>
                     <ul>
                         <li> <a href="#education"> Education </a></li>
                         <li> <a href="#experience"> Experience </a></li>
-                        <li> <a href="#"> Projects </a> </li>
+                        <li> <a href="#projects"> Projects </a> </li>
                         <li> <a href="#"> Contact Me</a></li>
                     </ul>
-                </div>
                 
             </header>
-
-            <!-- minor javascript for the scroll effect -->
-
-            <script type="text/javascript"> 
-                window.addEventListener("scroll", function(){
-                    var header = document.querySelector("header");
-                    header.classList.toggle("for_sticky", window.scrollY > 0)
-                })
-            </script>
 
             <!-- the background and the subheading goes here -->
 
             <section class="photo">
-
                 <section class= "sub-heading">
                     <h2> <b> Software Engineer</b></h2>
                     <h3> Hello,  I am a senior double majoring in Mathematics </h3>
                     <h3> and Computer Science at St. Joseph's College, </h3>
-                    <h3> Brooklyn,&nbsp; NY.&nbsp; I have been working as a Software</h3>
-                    <h3> Engineer Intern at Tarifica-- a data centric start up in</h3>
-                    <h3>  NYC.&nbsp; My responsibilities includes optimizing codes </h3> 
-                    <h3> to ensure better server performance. </h3>   
-                    <h3>    </h3>
-                    <h3> </h3>
+                    <h3> Brooklyn,&nbsp; NY.&nbsp; I have been working as a Software </h3>
+                    <h3> Engineer Intern at Tarifica-- a data centric start up in </h3>
+                    <h3> NYC.&nbsp; My responsibilities includes optimizing codes </h3> 
+                    <h3> to ensure better server performance. </h3>
                     <h2> <a class="resume_button" href="https://www.dropbox.com/s/4rzwn2ikjgkqqio/Dhiraj%20Kumar%20Chaudhary.pdf?dl=0" target="_blank"> <button> Resume! </button> </a> </h2>
                 </section>
             </section>
 
+            </div>
+            
+
             <!-- the background and the subheading goes here -->
 
+            <div class="education_container">
             <section id= "education">
-                    <h1 class="all_titles">Education</h1>
+                <h1 class="all_titles">Education</h1>
+
                 <div class="timeline_container">
                     <div class="event">
                         <div class="timeline_content"> 
-                            <h4>August 2018 - July 2022</h4>
+                            <h4> August 2018 - July 2022 </h4>
                             <h2> St. Joseph's College </h2>
-                            <p>GPA: 3.8</p>
-                            <p>Relevant courses: Data Structures & Algorithms, Database Systems, Assembler, Operating Systems, Probability & Statistics</p>
+                            <p> GPA: 3.8 </p>
+                            <p> Relevant courses: Data Structures & Algorithms, Database Systems, Assembler, Operating Systems, Probability & Statistics </p>
                             <p> Presidential Scholarship, Honors Student, Dean’s List </p>
-
-
                         </div>
                     </div>
                 </div>
+
                 <br>
+
                 <div class="timeline_container">
                     <div class="event">
                         <div class="timeline_content"> 
-                            <h4>June 2021</h4>
+                            <h4> June 2021 </h4>
                             <h2> Duke Machine Learning Summer School </h2>
-                            <p>Skills Learnt: Mathematical and statistical foundations of ML and AI, PyTorch </p>
+                            <p> Skills Learnt: Mathematical and statistical foundations of ML and AI, PyTorch </p>
                         </div>
                     </div>
                 </div>
+
             </section>
+            </div>
 
+            <!-- the experience section goes here -->
 
-            <!-- the experience goes here -->
+            <div class="experience_container">
             <br>
             <br>
             <br>
             <section id= "experience">
-                <h1 class="all_titles">Experience</h1>
+                <h1 class="all_titles"> Experience </h1>
+
+                <!-- software engineer intern at Tarifica -->
             <div class="timeline_container">
                 <div class="event">
                     <div class="timeline_content"> 
-                        <h4>June 2021 - Present</h4>
+                        <h4> June 2021 - Present </h4>
                         <h2> Software Engineer Intern | Tarifica Manhattan, NY </h2>
                         <p>• Maintain, monitor, and rebuild over 100 python based telecom-data-parsing web scrapers to help improve the data quality and consistency of the database making it more useful for clients </p>
                         <p>• Redesigned web scrapers to replace hard coded variables with scripts making the scrapers more robust and increasing data accuracy </p>
@@ -101,45 +103,37 @@
                 </div>
             </div>
             <br>
+
+            <!-- peer tutor at SJC -->
             <div class="timeline_container">
                 <div class="event">
                     <div class="timeline_content"> 
-                        <h4>January 2019- Present</h4>
+                        <h4> January 2019- Present </h4>
                         <h2> Mathematics & Computer Science Peer Tutor | St. Joseph’s College Brooklyn, NY </h2>
-                        <p>• Organize group peer tutoring sessions to meet demands during exams increasing tutoring opportunities accessibility</p>
-                        <p>• Coach students to identify resources and academic support available both on-campus and online, boosting the academic center's engagement and impact</p>
-                        <p>• Delivered lectures for Data Structure and Algorithms, Object-oriented programming, and other fundamentals by identifying and adapting to student's specific needs doubling Computer Science and Mathematics appointments</p>
+                        <p>• Organize group peer tutoring sessions to meet demands during exams increasing tutoring opportunities accessibility </p>
+                        <p>• Coach students to identify resources and academic support available both on-campus and online, boosting the academic center's engagement and impact </p>
+                        <p>• Delivered lectures for Data Structure and Algorithms, Object-oriented programming, and other fundamentals by identifying and adapting to student's specific needs doubling Computer Science and Mathematics appointments </p>
                     </div>
                 </div>
             </div>
-        </section>
-            
-        <!-- the projects goes here -->
 
+        </section>
+        </div>
+            
+        <!-- the projects section goes here -->
+        <div class="projects_container">
         <br>
         <br>
         <br>
         <section id= "projects">
-            <h1 class="all_titles">Projects</h1>
-        <div class="timeline_container">
-            <div class="event">
-                <div class="timeline_content"> 
-                    <h4>February 2020</h4>
-                    <h2> Bio Robotics </h2>
-                    <p>• Led a team of three to understand and evaluate the advantages of bio-inspired robotics structures </p>
-                    <p>• Integrated the benefits of artificial and biological structures to design a hybrid robotic structure that exerts a massive advantage over single structured robots</p>
-                    <p>• Presented the research paper in the SJC Undergraduate Research Symposium</p>
-                </div>
-            </div>
-        </div>
-        
+            <h1 class="all_titles"> Projects </h1>
 
         <!-- Job posting scraper -->
         <br>
         <div class="timeline_container">
             <div class="event">
                 <div class="timeline_content"> 
-                    <h4>June 2021</h4>
+                    <h4> June 2021 </h4>
                     <h2> Job Postings Scrapper </h2>
                     <p>• Developed a program that scrapes job postings from Indeed and LinkedIn and converts the parsed info into a CSV file </p>
                     <p>• Used python to automate the scraping process with selenium and leveraged bs4 to parse targeted gathered data into a table </p>
@@ -154,8 +148,8 @@
         <div class="timeline_container">
             <div class="event">
                 <div class="timeline_content"> 
-                    <h4>March 2021</h4>
-                    <h2>Pizza Shop Application </h2>
+                    <h4> March 2021 </h4>
+                    <h2> Pizza Shop Application </h2>
                     <p>• Created an MVP application for a pizza shop business handling clients’ orders and keeping records into the built-in database </p>
                     <p>• Used Java, JDBC, mySQL and Swing to create a fully functional interactive GUI with predefined and customizable order options </p>
                 </div>
@@ -170,9 +164,9 @@
                     <div class="timeline_content"> 
                         <h4>March 2021</h4>
                         <h2> proboabfunc (Python Package for Statistical Operations) </h2>
-                        <p> • Developed a python package using object-oriented programming in Python with Pandas, NumPy and Matplotlib that performs mathematical operations and visualizations of data in the binomial and gaussian distribution system </p>
-                        <p> • The package can read data from a CSV file and help users navigate the entire process </p>
-                        <p> • Uploaded the fully functional package to PyPI as proboabfunc, which can be used for statistical operations </p>
+                        <p>• Developed a python package using object-oriented programming in Python with Pandas, NumPy and Matplotlib that performs mathematical operations and visualizations of data in the binomial and gaussian distribution system </p>
+                        <p>• The package can read data from a CSV file and help users navigate the entire process </p>
+                        <p>• Uploaded the fully functional package to PyPI as proboabfunc, which can be used for statistical operations </p>
                     </div>
                 </div>
             </div>
@@ -183,10 +177,9 @@
             <div class="timeline_container">
                 <div class="event">
                     <div class="timeline_content"> 
-                        <h4> February 2021</h4>
+                        <h4> February 2021 </h4>
                         <h2> game-ttt (Python Package for tic-tac-toe) </h2>
-                        <p>• Programmed a package with tic-tac-toe game using Python and object oriented programming that can assess two
-                        players </p>
+                        <p>• Programmed a package with tic-tac-toe game using Python and object oriented programming that can assess two players </p>
                         <p>• Deployed the package to PyPI labeled as game-ttt available to users and compatible with python versions 3.7 and above </p>
                     </div>
                 </div>
@@ -220,13 +213,14 @@
                     </div>
                 </div>
             </div>
-
+        </section>
+        </div>
             <!--  -->
             <br>
             <div class="timeline_container">
                 <div class="event">
                     <div class="timeline_content"> 
-                        <h4> Date</h4>
+                        <h4> Date </h4>
                         <h2> Title </h2>
                         <p>• Bullet points </p>
                         <p>• Bullet points </p>
@@ -234,8 +228,6 @@
                 </div>
             </div>
 
-
-        </section>
     </body>
 
 </html>
