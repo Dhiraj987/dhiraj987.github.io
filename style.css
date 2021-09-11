@@ -189,7 +189,7 @@ text-transform: uppercase;
 }
 
 
-.contact_me{
+#contact_me{
 	position:static;
 	height: 25vh;
 	text-align: center;
@@ -199,7 +199,7 @@ text-transform: uppercase;
 	}
 
 
-.contact_me h3{
+#contact_me h3{
 	color: white;
 	margin-top: 20px;
 }
