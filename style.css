@@ -239,3 +239,8 @@ text-transform: uppercase;
 	padding-top: 3%;
 	text-align: center;
 }
+
+.bolded{
+	font-size: 18px;
+	font-weight:bold;
+}
